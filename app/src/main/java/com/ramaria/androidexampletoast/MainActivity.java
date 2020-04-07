@@ -18,10 +18,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void exibirToast(View view){
-        Context context = getApplicationContext();
-        CharSequence text = "Hello Toast!";
-        int duration = Toast.LENGTH_SHORT;
-        Toast.makeText(context, text, duration).show();
-
+        Toast.makeText(getApplicationContext(),"Hello Toast", Toast.LENGTH_SHORT).show();
     }
 }
