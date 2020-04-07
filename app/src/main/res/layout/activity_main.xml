@@ -12,5 +12,6 @@
         android:id="@+id/buttonToast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="exibirToast"
         android:text="Ativar Toast" />
 </LinearLayout>
